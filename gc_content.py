@@ -1,16 +1,3 @@
-# with open("rosalind_fib.txt") as f:
-#     s= f.read().strip()
-# a=1
-# b=1
-# n,k = s.split()
-# n,k = int(n),int(k)
-# for i in range(n-2):
-#     a, b = b, k*a + b
-# print(b)
-#learning problm 5
-
-
-
 
 # with open("rosalind_gc.txt") as f:
 #      s= f.read().split('>') #instade of strip we are using split so that we can split the sequence based on symbolll]
@@ -31,12 +18,6 @@
 #                best_seq= name
 # print(best_seq)
 # print(f"{highest_gc:.6f}")
-
-
-
-
-
-
 
 def parse_fasta():
      with open("rosalind_gc.txt") as f:
